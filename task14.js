@@ -26,4 +26,4 @@ for (const subject of subjectMarks) {
   const averageMarks = totalMarks / students.length;
   subjectAverages[subject] = averageMarks;
 }
-console.log(subjectAverages)
+console.log("Average marks of all subjects:", subjectAverages);
